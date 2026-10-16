@@ -33,7 +33,7 @@ tests/test_database.py  database and rules tests (needs no Tk)
 | File | What it does |
 |---|---|
 | `petvault/config.py` | Settings and fixed values: file locations, date formats, roles, permissions, payment methods. |
-| `petvault/database.py` | The Clinic class: every database operation and business rule (no screens in here). |
+| `petvault/database.py` | The Clinic class: every database operation and business rule. |
 | `petvault/demo.py` | Sample data and demo logins for the --demo option. |
 | `petvault/errors.py` | The one error type used for every validation or business-rule problem. |
 | `petvault/files.py` | CSV export, a tiny PDF writer, receipt and summary text, and opening files. |
